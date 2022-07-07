@@ -1,0 +1,82 @@
+html
+{
+    font-size: large;
+    font-weight: bolder;
+}
+
+@font-face
+{
+    font-family: 'SignikaNegative';
+    src: url('../fonts/SignikaNegative.ttf');
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'SignikaNegative';
+    background-color: black;
+    color: orangered;
+}
+
+.content
+{
+    color: #000000;
+    background-color: orangered;
+    width: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+header h1
+{
+    font-size: 48px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+
+form
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    width: 35%;
+    padding: 10px;
+}
+
+form label
+{
+    margin-top: 10px;
+}
+
+form #submit
+{
+    margin-top: 10px;
+}
+
+a
+{
+    color: orangered;
+    text-decoration: none; 
+}
+
+nav a
+{
+    margin: 5px;
+    width: 100%;
+}
+
+a:hover
+{ 
+    color: rgb(226, 100, 100);
+    text-decoration: none; 
+}
