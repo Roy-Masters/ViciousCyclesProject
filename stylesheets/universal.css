@@ -1,0 +1,59 @@
+@font-face
+{
+    font-family: 'SignikaNegative';
+    src: url('../fonts/SignikaNegative.ttf');
+}
+
+body
+{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    font-family: 'SignikaNegative';
+    background-color: rgb(94, 14, 0);
+    color: orangered;
+}
+
+.content
+{
+    min-width: 500px;
+    margin: auto;
+    color: #000000;
+    background-color: orangered;
+}
+
+/* Title */
+header h1 a
+{
+    color: orangered;
+    font-size: 48px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+
+nav a
+{
+    background-color: orangered;
+    margin: 5px;
+    width: 100%;
+}
+
+a
+{
+    color: black;
+    text-decoration: none; 
+}
+
+a:hover
+{ 
+    color: rgb(226, 100, 100);
+    text-decoration: none; 
+}
